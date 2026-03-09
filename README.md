@@ -1,4 +1,4 @@
-# 🏭 microfactory
+# 🏭 open-microfactory
 
 **Open-source dexterous assembly cell deployable on a desktop, a workshop bench, or a factory floor. Bimanual SO-ARM101 · Da Vinci-inspired teleoperation · VLA-driven autonomy · Twin demonstration cell. In development.**
 
