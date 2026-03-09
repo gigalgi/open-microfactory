@@ -30,6 +30,7 @@
   <br><em>Desktop deployment — same cell hardware on a workbench, suitable for home-based small-batch production.</em>
 </div>
 
+---
 The cell is built around a **bimanual [SO-ARM101](https://github.com/TheRobotStudio/SO-ARM100)** arrangement enclosed in a transparent workspace frame. It is taught new assembly tasks via a **twin demonstration cell** — a mirrored human workspace equipped with a Da Vinci-inspired teleoperation leader system and hand-tracking input devices — and autonomized through **[LeRobot](https://github.com/huggingface/lerobot)** imitation learning and **VLA policies** ([open-poporo-vla](https://github.com/yourusername/open-poporo-vla), [neurosymbolic-vla](https://github.com/yourusername/neurosymbolic-vla)).
 
 From the perspective of this architecture, **food preparation is assembly**. Building a hot dog — bun placement, sausage insertion, condiment dispense — is structurally identical to connector insertion and snap-fit assembly: a sequence of pick, orient, place, and apply-force primitives operating on compliant, geometrically variable objects. Building a pizza — dough handling, sauce spreading, topping distribution — introduces deformable object manipulation and continuous force control, which are among the hardest open problems in dexterous robotics. The microfactory cell treats both the electronics workbench and the food prep counter as valid assembly environments, and the same skill cartridges, demonstration pipeline, and VLA policies apply across both domains without architectural changes.
