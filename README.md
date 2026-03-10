@@ -201,7 +201,7 @@ The complete Bill of Materials targets a cell hardware cost under **$2,000 USD**
 ### Phase 2 — Learn & Automate
 | Component | Status |
 |---|---|
-| ACT / Diffusion Policy — first closed-loop autonomous assembly | ⏳ Planned |
+| VLAs / Diffusion Policy — first closed-loop autonomous assembly | ⏳ Planned |
 | First food task: hot dog assembly | ⏳ Planned |
 | open-poporo-vla skill cartridges for continual task addition | ⏳ Planned |
 | Deformable food task: pizza assembly | ⏳ Planned |
