@@ -194,6 +194,9 @@ The complete Bill of Materials targets a cell hardware cost under **$2,000 USD**
 | LeRobot bimanual integration | ⏳ Planned |
 | Teleoperation pipeline — leader arms + hand tracking → follower arms | ⏳ Planned |
 | First bimanual demonstration dataset (IKEA assembly) | ⏳ Planned |
+| MuJoCo trainning and testing| ⏳ Planned |
+| Isaac-sim/lab trainning and testing | ⏳ Planned |
+| MuJoCo-Isaac-sim cross policy validation | ⏳ Planned |
 
 ### Phase 2 — Learn & Automate
 | Component | Status |
