@@ -77,14 +77,14 @@ The two input modalities are fused: Leap Motion provides high-precision finger a
 
 ### 3. End Effector — 3-Finger Dexterous Hand
 
-The default SO-ARM101 gripper is replaced with a custom **3-finger dexterous hand** developed in [open-yta-hand](https://github.com/yourusername/open-yta-hand):
+The default SO-ARM101 gripper is replaced with a custom **3-finger dexterous hand** developed in [open-yta-hand](https://github.com/gigalgi/open-yta-hand):
 
 | Feature | Description |
 |---|---|
 | Fingers | 3 — index, middle, opposable thumb |
 | Thumb range | 180° abduction — hand is geometrically left or right simultaneously |
 | Grasp modes | Precision pinch · Power wrap · Lateral key · Tripod |
-| Sensing | [open-huca-skin](https://github.com/yourusername/open-huca-skin) tactile patches on fingerpads — contact force + slip detection |
+| Sensing | [open-huca-skin](https://github.com/gigalgi/open-huca-skin) tactile patches on fingerpads — contact force + slip detection |
 | Actuation | Low-profile servo per joint, CAN bus or PWM |
 | Fabrication | 3D printed structural parts + off-the-shelf servo hardware |
 
@@ -100,8 +100,8 @@ The 180° opposable thumb removes the distinction between left-hand and right-ha
 - **Multi-camera observation** — overhead stereo pair + wrist-mounted wide-angle camera per arm. Synchronized with joint state at 50 Hz.
 
 #### Autonomy
-- **[open-poporo-vla](https://github.com/yourusername/open-poporo-vla)** — biologically-grounded VLA (V-JEPA 2 + DGMoE + LoRAC + Residual RL) for continual skill acquisition and compositional task execution. Primary autonomy stack for novel assembly variants.
-- **[neurosymbolic-vla](https://github.com/yourusername/neurosymbolic-vla)** — symbolic VLA (OSKR + GraSP) for long-horizon task decomposition and replanning on anomaly detection. Handles structured assembly sequences with explicit sub-goal tracking.
+- **[open-poporo-vla](https://github.com/gigalgi/open-poporo-vla)** — biologically-grounded VLA (V-JEPA 2 + DGMoE + LoRAC + Residual RL) for continual skill acquisition and compositional task execution. Primary autonomy stack for novel assembly variants.
+- **[neurosymbolic-vla](https://github.com/gigalgi/neurosymbolic-vla)** — symbolic VLA (OSKR + GraSP) for long-horizon task decomposition and replanning on anomaly detection. Handles structured assembly sequences with explicit sub-goal tracking.
 
 #### Simulation
 - **Isaac Lab** — physics simulation for generating synthetic training data, validating new assembly tasks before hardware deployment, and training the Whole-Body Controller for the open-kumanday-humanoid deployment target.
@@ -213,12 +213,12 @@ The complete Bill of Materials targets a cell hardware cost under **$2,000 USD**
 | Repository | Role in microfactory |
 |---|---|
 | [SO-ARM101](https://github.com/TheRobotStudio/SO-ARM100) | Primary follower and leader arms — bimanual cell backbone |
-| [open-poporo-vla](https://github.com/yourusername/open-poporo-vla) | Continual skill learning VLA — autonomy for novel assembly variants |
-| [neurosymbolic-vla](https://github.com/yourusername/neurosymbolic-vla) | Symbolic task decomposition and long-horizon replanning |
-| [open-yta-hand](https://github.com/yourusername/open-yta-hand) | 3-finger dexterous end effector with 180° thumb |
-| [open-huca-skin](https://github.com/yourusername/open-huca-skin) | Tactile skin patches — contact force and slip detection on fingerpads |
-| [open-pquaca-arm](https://github.com/yourusername/open-pquaca-arm) | 5-DOF arm — single-arm testbed for cell primitives |
-| [open-kumanday-humanoid](https://github.com/yourusername/open-kumanday-humanoid) | Long-term humanoid deployment target as cell operator |
+| [open-poporo-vla](https://github.com/gigalgi/open-poporo-vla) | Continual skill learning VLA — autonomy for novel assembly variants |
+| [neurosymbolic-vla](https://github.com/gigalgi/neurosymbolic-vla) | Symbolic task decomposition and long-horizon replanning |
+| [open-yta-hand](https://github.com/gigalgi/open-yta-hand) | 3-finger dexterous end effector with 180° thumb |
+| [open-huca-skin](https://github.com/gigalgi/open-huca-skin) | Tactile skin patches — contact force and slip detection on fingerpads |
+| [open-pquaca-arm](https://github.com/gigalgi/open-pquaca-arm) | 5-DOF arm — single-arm testbed for cell primitives |
+| [open-kumanday-humanoid](https://github.com/gigalgi/open-kumanday-humanoid) | Long-term humanoid deployment target as cell operator |
 
 ---
 
