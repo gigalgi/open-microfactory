@@ -16,7 +16,7 @@
 
 ## Overview
 
-**open-microfactory** is an open-source robotic assembly cell designed to perform dexterous manipulation tasks — PCB population, connector insertion, small-part assembly, packaging, food preparation— at a cost and footprint accessible to independent developers, small businesses, and research labs, while remaining scalable to industrial deployment in larger facilities.
+**open-microfactory** is an open-source robotic assembly cell designed to perform dexterous manipulation tasks — PCB population, connector insertion, small-part assembly, packaging, food preparation— at a cost and footprint accessible to independent developers, small businesses, and research labs, while remaining scalable to industrial deployment in larger facilities. Software automation scales for free. Physical automation is gated by hardware. We make the full stack accessible — Physical AI for micro-startups, not the factory.
 
 <div align="center">
   <img src="docs/images/in-factory.png" width="760" alt="Microfactory cell in factory setting"/>
