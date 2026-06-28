@@ -194,16 +194,16 @@ The complete Bill of Materials targets a cell hardware cost under **$2,000 USD**
 | LeRobot bimanual integration | ⏳ Planned |
 | Teleoperation pipeline — leader arms + hand tracking → follower arms | ⏳ Planned |
 | First bimanual demonstration dataset (IKEA assembly) | ⏳ Planned |
-| MuJoCo trainning and testing| ⏳ Planned |
-| Isaac-sim/lab trainning and testing | ⏳ Planned |
-| MuJoCo-Isaac-sim cross policy validation | ⏳ Planned |
+| MuJoCo trainning and testing| 🚧 In progress |
+| Isaac-sim/lab trainning and testing | 🚧 In progress |
+| MuJoCo-Isaac-sim cross policy validation | 🚧 In progress |
 
 ### Phase 2 — Learn & Automate
 | Component | Status |
 |---|---|
-| VLAs / Diffusion Policy — first closed-loop autonomous assembly | ⏳ Planned |
-| First food task: hot dog assembly | ⏳ Planned |
-| open-poporo-vla skill cartridges for continual task addition | ⏳ Planned |
+| VLAs / Diffusion Policy — first closed-loop autonomous assembly | 🚧 In progress |
+| First food task: hot dog assembly | 🚧 In progress |
+| open-poporo-vla skill cartridges for continual task addition | 🚧 In progress |
 | Deformable food task: pizza assembly | ⏳ Planned |
 
 ---
