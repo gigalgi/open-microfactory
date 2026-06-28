@@ -10,7 +10,7 @@
 
 ---
 
-> *A microfactory is not a scaled-down factory — it is a rethinking of manufacturing at the cell level: flexible, intelligent, and accessible. One cell, one bench, one person. Any assembly. made for micro-startups*
+> *A microfactory is not a scaled-down factory — it is a rethinking of manufacturing at the cell level: flexible, intelligent, and accessible. One cell, one bench, one person. Any assembly. Made for micro-startups*
 
 ---
 
