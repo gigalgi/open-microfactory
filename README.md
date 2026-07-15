@@ -30,6 +30,20 @@
   <br><em>Desktop deployment — same cell hardware on a workbench, suitable for home-based small-batch production.</em>
 </div>
 
+<br/>
+
+<div align="center">
+  <img src="docs/images/cell.png" width="760" alt="Microfactory real cell prototype"/>
+  <br><em>Desktop deployment — same cell hardware on a workbench, suitable for home-based small-batch production.</em>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="docs/images/cell_combo.png" width="760" alt="Microfactory cell and teleop setup"/>
+  <br><em>Desktop deployment — same cell hardware on a workbench, suitable for home-based small-batch production.</em>
+</div>
+
 ---
 The cell is built around a **bimanual [SO-ARM101](https://github.com/TheRobotStudio/SO-ARM100)** arrangement enclosed in a transparent workspace frame. It is taught new assembly tasks via a **twin demonstration cell** — a mirrored human workspace equipped with a Da Vinci-inspired teleoperation leader system and hand-tracking input devices — and autonomized through **[LeRobot](https://github.com/huggingface/lerobot)** imitation learning and **VLA policies** ([open-poporo-vla](https://github.com/gigalgi/open-poporo-vla), [neurosymbolic-vla](https://github.com/gigalgi/neurosymbolic-vla)).
 
