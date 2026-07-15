@@ -33,15 +33,15 @@
 <br/>
 
 <div align="center">
-  <img src="docs/images/cell.png" width="760" alt="Microfactory real cell prototype"/>
-  <br><em>Desktop deployment — same cell hardware on a workbench, suitable for home-based small-batch production.</em>
+  <img src="docs/images/cell.PNG" width="760" alt="Microfactory real cell prototype"/>
+  <br><em>Desktop deployment prototype.</em>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="docs/images/cell_combo.png" width="760" alt="Microfactory cell and teleop setup"/>
-  <br><em>Desktop deployment — same cell hardware on a workbench, suitable for home-based small-batch production.</em>
+  <img src="docs/images/cell_combo.PNG" width="760" alt="Microfactory cell and teleop setup"/>
+  <br><em>Desktop deployment prototype, cell with bimanual arms and teleoperation setup.</em>
 </div>
 
 ---
